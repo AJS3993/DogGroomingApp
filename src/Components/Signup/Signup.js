@@ -9,7 +9,7 @@ class Signup extends React.Component {
 
       <div>    
     
-    <h2>Sign Up</h2>
+      <h2>Sign Up</h2>
       
       </div>
     );
