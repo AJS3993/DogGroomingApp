@@ -6,7 +6,7 @@ import "./NavBar.css";
 
 const NavBar = (props) => (
     <div>
-      <Navbar bg="warning" variant="dark">
+      <Navbar bg="dark" variant="dark" >
     <Navbar.Brand><Link className='logo' to="/">PuppyClips</Link></Navbar.Brand>
     <Nav className="mr-auto">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
