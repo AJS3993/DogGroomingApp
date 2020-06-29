@@ -13,13 +13,10 @@ function App() {
 
 
 <Switch>
-          <Route
-            exact
-            path="/"
-            render={() => (
-              <Homepage/>
-              )}
-            />
+<Route 
+      exact path={`/`} 
+      render={ (routerProps
+      ) => < Homepage/>} />
 
           <Route
             exact
