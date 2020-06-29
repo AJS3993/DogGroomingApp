@@ -5,3 +5,7 @@ h2 {
 form {
     text-align: center;
 }
+
+input {
+    background: peru;
+}

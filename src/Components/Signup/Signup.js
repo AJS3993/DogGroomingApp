@@ -1,6 +1,7 @@
 import React from "react";
 import "./Signup.css";
-import {MDBInput} from 'mdbreact';
+import {MDBInput, MDBContainer} from 'mdbreact';
+
 
 class Signup extends React.Component {
 
@@ -10,6 +11,8 @@ class Signup extends React.Component {
 
       <div>    
     
+<MDBContainer>
+
       <h2>Sign Up</h2>
 
       <form>
@@ -23,7 +26,7 @@ class Signup extends React.Component {
       <MDBInput type="submit" value="Submit"/>
 
       </form>
-
+      </MDBContainer>
       </div>
     );
   }
