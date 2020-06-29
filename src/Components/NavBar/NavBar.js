@@ -10,16 +10,12 @@ const NavBar = (props) => (
     <Navbar.Brand><Link className='logo' to="/">PuppyClips</Link></Navbar.Brand>
     <Nav className="mr-auto">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <Nav.Link><Link className='link' to="/menu">Home</Link></Nav.Link>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <Nav.Link><Link className='link' to="/add">Services</Link></Nav.Link>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <Nav.Link><Link className='link' to="/order">Our Groomers</Link></Nav.Link>
+    <Nav.Link><Link className='link' to="/Services">Services</Link></Nav.Link>
     </Nav>
     <Nav>
-    <Nav.Link><Link className='link' to="/profile">Contact Us</Link></Nav.Link>
+    <Nav.Link><Link className='link' to="/Contact">Contact Us</Link></Nav.Link>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <Nav.Link><Link className='link' to="/profile">About Us</Link></Nav.Link>
+    <Nav.Link><Link className='link' to="/About">About Us</Link></Nav.Link>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
    
     {/* <NavBar /> */}

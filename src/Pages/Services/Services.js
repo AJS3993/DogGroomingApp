@@ -1,15 +1,14 @@
 import React from "react";
-import "./Homepage.css";
-import Signup from '../../Components/Signup/Signup'
+import "./Services.css";
 import NavBar from '../../Components/NavBar/NavBar'
 import Footer from '../../Components/Footer/Footer'
 
-const Homepage = props => {
+const Services = props => {
   return (
-    <div className="Homepage">
+    <div className="Services">
       <NavBar/>
 
-    <Signup/>
+<h1>Services</h1>
 
   <Footer/>
 
@@ -17,4 +16,4 @@ const Homepage = props => {
   );
 };
 
-export default Homepage;
+export default Services;
