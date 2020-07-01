@@ -1,6 +1,5 @@
 import React from "react";
 import "./Signup.css";
-import {MDBInput, MDBContainer} from 'mdbreact';
 
 
 class Signup extends React.Component {

@@ -6,7 +6,6 @@ import Services from './Pages/Services/Services'
 import Contact from './Pages/Contact/Contact'
 import About from './Pages/About/About'
 
-
 function App() {
   return (
     <div className="App">
@@ -14,13 +13,10 @@ function App() {
 
 
 <Switch>
-          
-          
-      <Route 
+<Route 
       exact path={`/`} 
       render={ (routerProps
       ) => < Homepage/>} />
-          
 
           <Route
             exact
