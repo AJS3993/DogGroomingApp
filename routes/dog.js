@@ -1,15 +1,15 @@
-const express = require("express");
-const router = express.Router();
-const dogCtrl = require("../../controllers/menu");
+// const express = require("express");
+// const router = express.Router();
+// const dogCtrl = require("../../controllers/dog");
 
-/*---------- Public Routes ----------*/
-router.get('/', menuCtrl.index);
-router.get('/:id', menuCtrl.show);
-router.post('/', menuCtrl.create);
-router.delete('/:id', menuCtrl.delete);
-router.put('/:id', menuCtrl.update);
+// /*---------- Public Routes ----------*/
+// router.get('/', dogCtrl.index);
+// router.get('/:id', dogCtrl.show);
+// router.post('/', dogCtrl.create);
+// router.delete('/:id', dogCtrl.delete);
+// router.put('/:id', dogCtrl.update);
 
 
-/*---------- Protected Routes ----------*/
+// /*---------- Protected Routes ----------*/
 
-module.exports = router;
+// module.exports = router;

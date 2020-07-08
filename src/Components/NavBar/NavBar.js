@@ -11,6 +11,8 @@ const NavBar = (props) => (
     <Nav className="mr-auto">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <Nav.Link><Link className='link' to="/Services">Services</Link></Nav.Link>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <Nav.Link><Link className='link' to="/Add">Your Dog</Link></Nav.Link>
     </Nav>
     <Nav>
     <Nav.Link><Link className='link' to="/Contact">Contact Us</Link></Nav.Link>

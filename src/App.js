@@ -3,6 +3,7 @@ import './App.css';
 import { Route, Switch } from "react-router-dom";
 import Homepage from './Pages/Homepage/Homepage'
 import Services from './Pages/Services/Services'
+import Add from './Pages/Add/Add'
 import Contact from './Pages/Contact/Contact'
 import About from './Pages/About/About'
 
@@ -24,6 +25,15 @@ function App() {
             render={() => (
               <Services
               />
+              )}
+              />
+
+              <Route
+              exact
+              path="/Add"
+              render={() => (
+                <Add
+                />
             )}
           />
 
