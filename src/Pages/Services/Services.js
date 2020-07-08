@@ -10,8 +10,6 @@ const Services = props => {
     <div>
       <NavBar/>
 
-      <h1>Services</h1>
-
       <div className="Services">
 
         <MDBContainer>
