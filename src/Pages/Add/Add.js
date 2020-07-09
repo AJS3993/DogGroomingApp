@@ -1,7 +1,6 @@
 
 import React, {Component} from 'react';
 import NavBar from "../../Components/NavBar/NavBar";
-import  {Form}  from 'react-bootstrap';
 import './Add.css'
 
 
@@ -40,25 +39,72 @@ class Add extends Component {
       <>
       <NavBar/>
         
-        <Form>
-        <header className="header-footer"><h3>Enter Your Dog's information</h3></header>
-        <form className="form-horizontal" ref={this.formRef} autoComplete="off" onSubmit={this.handleSubmit}>
+        <div className="form-container">
+        
+        <form 
+        // ref={this.formRef} autoComplete="off" onSubmit={this.handleSubmit}
+        >
+        <header ><h3>Enter Your Dog's information</h3></header>
           
+        
           
-          <Form.Group>
-          <div className="col-sm-12">
             <label>Name</label>
-            <Form.Control
-              type= 'text'
+            <input
+              className="form-control"
             //   name="name"
             //   value={this.state.formData.name}
             //   onChange={this.handleChange}
               required
             />
-          </div>
-          </Form.Group>
+          
+        
+
+        
+            <label>Age</label>
+            <input
+              className="form-control"
+              type='number'
+            //   name="name"
+            //   value={this.state.formData.name}
+            //   onChange={this.handleChange}
+              required
+            />
+          
 
          
+            <label>Size</label>
+            <select className="form-control" id="Size" name="size">
+  <option value="Toy">Toy (0-12lbs)</option>
+  <option value="Small">Small (12-25lbs)</option>
+  <option value="Medium">Medium (25-50lbs)</option>
+  <option value="Large">Large (50-100lbs)</option>
+  <option value="Extra">Extra Large (100+lbs)</option>
+</select>
+         
+
+         
+            <label>Color</label>
+            <input
+              className="form-control"
+            //   name="name"
+            //   value={this.state.formData.name}
+            //   onChange={this.handleChange}
+              required
+            />
+    
+
+         
+            <label>Details</label>
+            <input
+              className="form-control"
+            //   name="details"
+            //   value={this.state.formData.name}
+            //   onChange={this.handleChange}
+              required
+            />
+       
+        
+
           
           <button
           
@@ -69,7 +115,7 @@ class Add extends Component {
             ADD
           </button>
         </form>
-        </Form>
+        </div>
      
       </>
     );
