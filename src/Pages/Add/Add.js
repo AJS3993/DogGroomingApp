@@ -1,6 +1,5 @@
 
 import React, {Component} from 'react';
-import NavBar from "../../Components/NavBar/NavBar";
 import './Add.css'
 
 
@@ -37,7 +36,6 @@ class Add extends Component {
   render() {
     return (
       <>
-      <NavBar/>
         
         <div className="form-container">
         

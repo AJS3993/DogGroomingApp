@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ajs3993.github.io/DogGroomingApp",
+  "homepage": "https://ajs3993.github.io/Dog",
   "name": "doggroomingapp",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mdbreact": "^4.27.0",
+    "mdbreact": "git+https://oauth2:iRJAbqZk6eSbSyxqWSDP@git.mdbootstrap.com/mdb/react/re-pro.git",
     "mongoose": "^5.9.20",
     "morgan": "^1.10.0",
     "react": "^16.13.1",
